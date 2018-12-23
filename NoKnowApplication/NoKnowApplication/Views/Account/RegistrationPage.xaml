@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:NoKnowApplication.Views"
+            xmlns:settings="clr-namespace:NoKnowApplication.Views.Settings;assembly=NoKnowApplication"
+            x:Class="NoKnowApplication.Views.RegistrationPage"
+            Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+            <Image Source="NoKnowLogoNoText" Grid.Row="0" HorizontalOptions="Center" WidthRequest="270" HeightRequest="270"  Margin="0" />
+            <Entry x:Name="Username" Placeholder="Benutzername" />
+            <Entry x:Name="Email" Placeholder="Email" />
+            <Entry x:Name="Passwort"  Placeholder="Passwort" IsPassword="true"/>
+            <Entry x:Name="PasswortWiederholung"  Placeholder="Passwort" IsPassword="true"/>
+            <Button Text="Registrieren" TextColor="White" BackgroundColor="#3556e9" Clicked="OnRegistrationClick"/>
+            <Label Text="Du hast bereits ein Konto?" Font="Small" HorizontalTextAlignment="Center"></Label>
+            <Label Text="LogIn" TextColor="DodgerBlue" HorizontalTextAlignment="Center" FontSize="Small">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnLoginClick"
+                        NumberOfTapsRequired="2" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoKnowApplication.Views.LoginRegistrationPage"
+             Title="{Binding Title}"
+             x:Name="LoginRegistrationSeite">
+   
+    <ContentPage.Content>
+            
+            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center" Grid.Row="1" Margin="0">
+            <Image Source="NoKnowLogo" Grid.Row="0" HorizontalOptions="Center" WidthRequest="270" HeightRequest="270"  Margin="0" />
+            <Button Text="Login" TextColor="White" BackgroundColor="#3556e9" Clicked="OnLoginButtonClicked"/>
+            <Button Text="Registrieren" TextColor="White" BackgroundColor="#3556e9" Clicked="OnRegistrierenClick"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoKnowApplication.Views.LoginPage"
+             Title="{Binding Title}"
+             x:Name="LoginSeite">
+   
+    <ContentPage.Content>
+            
+            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center" Grid.Row="1" Margin="0">
+            <Image Source="NoKnowLogoNoText" Grid.Row="0" HorizontalOptions="Center" WidthRequest="270" HeightRequest="270"  Margin="0" />
+            <Entry x:Name="UsernameEmail" Placeholder="Benutzername / Email" />
+            <Entry x:Name="Passwort"  Placeholder="Passwort" IsPassword="true"/>
+            <Button Text="Login" TextColor="White" BackgroundColor="#3556e9" Clicked="OnLoginButtonClicked"/>
+            <Label Text="Du hast noch kein Konto?" Font="Small" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Registrieren" TextColor="DodgerBlue" HorizontalTextAlignment="Center" FontSize="Small">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnRegistrierenClick"
+                        NumberOfTapsRequired="2" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

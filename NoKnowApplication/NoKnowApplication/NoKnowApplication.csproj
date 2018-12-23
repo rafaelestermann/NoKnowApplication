@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Account\LoginRegistrationPage.xaml.cs">
+      <DependentUpon>LoginRegistrationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\RegistrationPage.xaml.cs">
+      <DependentUpon>RegistrationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Settings\PasswortPage.xaml.cs">
+      <DependentUpon>PasswortPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Settings\AreaPage.xaml.cs">
+      <DependentUpon>AreaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\RecentPage.xaml.cs">
+      <DependentUpon>RecentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Settings\SettingPage.xaml.cs">
+      <DependentUpon>SettingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ChatPage.xaml.cs">
+      <DependentUpon>ChatPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

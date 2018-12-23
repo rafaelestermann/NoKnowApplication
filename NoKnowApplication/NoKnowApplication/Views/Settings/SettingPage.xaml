@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoKnowApplication.Views.Settings.SettingPage"
+              Title="{Binding Title}"
+             x:Name="SettingSeite">
+    <ContentPage.Content>
+
+        <ListView x:Name="SettingItemsListView" 
+                ItemsSource="{Binding SettingItems}"
+                VerticalOptions="FillAndExpand"
+                CachingStrategy="RecycleElement"
+                ItemSelected="OnNavigation">
+            <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Text}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.Footer>
+                    <Label />
+                </ListView.Footer>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
