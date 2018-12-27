@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:NoKnowApplication.Views"
+            xmlns:settings="clr-namespace:NoKnowApplication.Views.Settings;assembly=NoKnowApplication"
+            x:Class="NoKnowApplication.Views.PolicyAgreementPage"
+            Title="{Binding Title}">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <BoxView Color="Transparent" Grid.RowSpan="2">
+                <BoxView.GestureRecognizers>
+                    <SwipeGestureRecognizer Direction="Right" Swiped="OnBackClick"/>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+
+            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center" Grid.Row="0">
+                <Label Text="Policy Agreement" HorizontalTextAlignment="Center" TextColor="DarkSlateGray" FontSize="18" Margin="0,50,0,0"></Label>
+                <ScrollView Margin="10,20,10,0" BackgroundColor="LightGray" HorizontalScrollBarVisibility="Always">
+                <StackLayout Margin="15">
+                    <Label Text="Titel 1" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 2" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 3" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 4" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 5" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 6" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 7" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 8" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 9" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 10" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 11" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    <Label Text="Titel 12" TextColor="Black" FontSize="15" Margin="0,0,0,3"></Label>
+                    <Label Text="blablablablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablablablablblablabl" TextColor="Black" FontSize="12" Margin="0,0,0,6"></Label>
+                    </StackLayout>
+                </ScrollView>
+              
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="10">
+                    <Switch x:Name="AgreeBox" IsToggled="false" Toggled="OnAgree" VerticalOptions="Center"/>
+                    <Label Margin="10,0,0,0" Text="Verstanden" FontSize="16" VerticalTextAlignment="Center"></Label>
+                </StackLayout>
+                <Button x:Name="AgreeButton"  Text="Registrieren" TextColor="White" BackgroundColor="#3556e9" Clicked="OnNextClick"/>
+            </StackLayout>
+
+            <Grid Grid.Row="1" Grid.Column="0">
+                <Image Source="Step2.png" Margin="0,0,0,50" HorizontalOptions="CenterAndExpand" HeightRequest="30"></Image>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

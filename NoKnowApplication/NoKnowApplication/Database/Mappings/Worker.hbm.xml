@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true" assembly="ashtonapp" namespace="ashtonapp.Database.Entities">
+  <class name="WorkerEntity" table="worker" dynamic-update="true" >
+    <cache usage="read-write"/>
+    <id name="WorkerID" column="WorkerID" type="long">
+      <generator class="native" />
+    </id>
+
+    <property name="Workername"  />
+    <property name="Firstname"  />
+    <property name="Lastname"  />
+    <property name="Email" />
+    <property name="KarmaValue" />
+  </class>
+</hibernate-mapping>

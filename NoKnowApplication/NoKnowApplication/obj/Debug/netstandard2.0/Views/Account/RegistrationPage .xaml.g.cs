@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("NoKnowApplication.Views.Account.RegistrationPage.xaml", "Views/Account/RegistrationPage.xaml", typeof(global::NoKnowApplication.Views.RegistrationPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("NoKnowApplication.Views.Account.RegistrationPage .xaml", "Views/Account/RegistrationPage .xaml", typeof(global::NoKnowApplication.Views.RegistrationPage))]
 
 namespace NoKnowApplication.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Account\\RegistrationPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Account\\RegistrationPage .xaml")]
     public partial class RegistrationPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

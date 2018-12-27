@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true" assembly="ashtonapp" namespace="ashtonapp.Database.Entities">
+  <class name="AssignmentDetailEntity" table="assignmentdetails" dynamic-update="true" >
+    <cache usage="read-write"/>
+    <id name="AssignmentDetailID" column="AssignmentDetailID" type="long">
+      <generator class="native" />
+    </id>
+
+    <property name="Fk_AssignmentID"  />
+    <property name="DetailSpecification" />
+    <property name="Category" />
+    <property name="KarmaValue" />
+  </class>
+</hibernate-mapping>

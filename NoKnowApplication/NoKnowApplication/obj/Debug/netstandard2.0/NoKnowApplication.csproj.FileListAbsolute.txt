@@ -11,11 +11,13 @@ C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplica
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.pdb
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\RecentPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.csprojAssemblyReference.cache
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\AreaPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\PasswortPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\SettingPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\LoginPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\RegistrationPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\LoginRegistrationPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\AreaSelectPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\PolicyAgreementPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\RegistrationPage .xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.csprojAssemblyReference.cache

@@ -58,6 +58,12 @@ C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplica
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\tab_chat.png
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\tab_chat@2x.png
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\tab_chat@3x.png
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\NoKnowLogo.png
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\NoKnowLogoNoText.png
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\Back.png
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\next.png
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\Step1.png
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\Step2.png
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.csprojAssemblyReference.cache
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.csproj.CoreCompileInputs.cache
@@ -65,5 +71,3 @@ C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplica
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.csproj.CopyComplete
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.exe
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.pdb
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\NoKnowLogo.png
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\NoKnowLogoNoText.png

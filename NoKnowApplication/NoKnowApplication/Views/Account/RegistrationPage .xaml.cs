@@ -3,6 +3,7 @@ using System.Linq;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using NoKnowApplication.Models;
+using NoKnowApplication.Views.Settings;
 
 namespace NoKnowApplication.Views
 {
@@ -19,7 +20,7 @@ namespace NoKnowApplication.Views
            Application.Current.MainPage = new LoginPage();
         }
 
-        async void OnRegistrationClick(object sender, EventArgs e)
+        async void OnNextClick(object sender, EventArgs e)
         {
             var user = new User()
             {
@@ -33,13 +34,8 @@ namespace NoKnowApplication.Views
             var signUpSucceeded = AreDetailsValid(user);
             if (signUpSucceeded)
             {
-                var rootPage = Navigation.NavigationStack.FirstOrDefault();
-                if (rootPage != null)
-                {
-                    App.IsUserLoggedIn = true;
-                    Application.Current.MainPage = new MainPage();
-                    await Navigation.PopToRootAsync();
-                }
+                    Application.Current.MainPage = new AreaSelectPage(this);
+                
             }
             else
             {
@@ -49,7 +45,7 @@ namespace NoKnowApplication.Views
 
         bool AreDetailsValid(User user)
         {
-            return (!string.IsNullOrWhiteSpace(user.Username) && !string.IsNullOrWhiteSpace(user.Password) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
+            return true;
         }
     }
 }

@@ -10,15 +10,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Database\**" />
+    <EmbeddedResource Remove="Database\**" />
+    <None Remove="Database\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />  
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\Account\PolicyAgreementPage.xaml.cs">
+      <DependentUpon>PolicyAgreementPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\Account\LoginRegistrationPage.xaml.cs">
       <DependentUpon>LoginRegistrationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\Account\RegistrationPage.xaml.cs">
-      <DependentUpon>RegistrationPage.xaml</DependentUpon>
+    <Compile Update="Views\Account\RegistrationPage .xaml.cs">
+      <DependentUpon>RegistrationPage .xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\AreaSelectPage.xaml.cs">
+      <DependentUpon>AreaSelectPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\Account\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
