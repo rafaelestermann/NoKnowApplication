@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoKnowApplication.Models
+namespace NoKnowApplication.Entities
 {
     public class RecentChatEntity
     {

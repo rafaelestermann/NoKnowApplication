@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using Microsoft.WindowsAzure.MobileServices;
+using NoKnowApplication.Entities;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using NoKnowApplication.Models;
+using NoKnowApplication.Services;
 using NoKnowApplication.Views.Settings;
 
 namespace NoKnowApplication.Views
@@ -10,6 +14,8 @@ namespace NoKnowApplication.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegistrationPage : ContentPage
     {
+        public AccountEntity accountEntity;
+
         public RegistrationPage()
         {
             InitializeComponent();
@@ -17,12 +23,12 @@ namespace NoKnowApplication.Views
 
         async void OnLoginClick(object sender, EventArgs e)
         {
-           Application.Current.MainPage = new LoginPage();
+            Application.Current.MainPage = new LoginPage(ApplicationHandler.LoggedInAccount.Username, ApplicationHandler.LoggedInAccount.Password);
         }
 
         async void OnNextClick(object sender, EventArgs e)
         {
-            var user = new User()
+            accountEntity = new AccountEntity()
             {
                 Username = Username.Text,
                 Password = Passwort.Text,
@@ -30,12 +36,14 @@ namespace NoKnowApplication.Views
             };
 
             // Sign up logic goes here
-
-            var signUpSucceeded = AreDetailsValid(user);
-            if (signUpSucceeded)
+            if (AreDetailsValid(accountEntity))
             {
-                    Application.Current.MainPage = new AreaSelectPage(this);
-                
+                if (ApplicationHandler.Kantone == null || ApplicationHandler.Gemeinden == null)
+                {
+                    ApplicationHandler.Kantone = await MobileService.MobileServiceClient.GetTable<KantonEntity>().ToListAsync();
+                    ApplicationHandler.Gemeinden = await MobileService.MobileServiceClient.GetTable<GemeindeEntity>().ToListAsync();
+                }
+                Application.Current.MainPage = new AreaSelectPage(this);
             }
             else
             {
@@ -43,7 +51,7 @@ namespace NoKnowApplication.Views
             }
         }
 
-        bool AreDetailsValid(User user)
+        bool AreDetailsValid(AccountEntity user)
         {
             return true;
         }

@@ -10,6 +10,7 @@
             <Image Source="NoKnowLogoNoText" Grid.Row="0" HorizontalOptions="Center" WidthRequest="220" HeightRequest="220"  Margin="0" />
             <Entry x:Name="Username" Placeholder="Benutzername" />
             <Entry x:Name="Email" Placeholder="Email" />
+            <Label x:Name="EmailErrorLabel" />
             <Entry x:Name="Passwort"  Placeholder="Passwort" IsPassword="true"/>
             <Entry x:Name="PasswortWiederholung"  Placeholder="Passwort" IsPassword="true"/>
             <Button Text="Erstellen" TextColor="White" BackgroundColor="#3556e9" Clicked="OnNextClick"/>

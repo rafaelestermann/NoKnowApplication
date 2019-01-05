@@ -16,6 +16,7 @@ namespace NoKnowApplication.ViewModels
 
             SettingItems.Add(new ListItem(){Text = "Area"});
             SettingItems.Add(new ListItem() { Text = "Passwort ändern" });
+            SettingItems.Add(new ListItem() { Text = "Log Out" });
         }
     }
 }

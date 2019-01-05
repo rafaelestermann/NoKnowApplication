@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoKnowApplication.iOS", "NoKnowApplication\NoKnowApplication.iOS\NoKnowApplication.iOS.csproj", "{01AB22E8-28B2-486D-A2AE-C854C5F0BCA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoKnowApplication", "NoKnowApplication\NoKnowApplication\NoKnowApplication.csproj", "{B1406E6F-FE5F-4802-B285-A76E99A2D3D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoKnowApplication", "NoKnowApplication\NoKnowApplication\NoKnowApplication.csproj", "{B1406E6F-FE5F-4802-B285-A76E99A2D3D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

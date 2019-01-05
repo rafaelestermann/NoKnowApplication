@@ -1,5 +1,11 @@
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.iOS.exe.config
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.iOS.exe
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.iOS.pdb
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Extensions.dll
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
@@ -43,7 +49,7 @@ C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplica
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.dll
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.pdb
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.dll.mdb
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.dll.config
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
@@ -66,8 +72,10 @@ C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplica
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\Step2.png
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.csprojAssemblyReference.cache
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.exe.config
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.csproj.CoreCompileInputs.cache
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.csproj.CopyComplete
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.exe
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\obj\iPhoneSimulator\Debug\NoKnowApplication.iOS.pdb
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication.iOS\bin\iPhoneSimulator\Debug\NoKnowApplication.dll.mdb

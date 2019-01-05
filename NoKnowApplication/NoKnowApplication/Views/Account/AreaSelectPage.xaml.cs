@@ -2,49 +2,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.WindowsAzure.MobileServices;
+using NoKnowApplication.Entities;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using NoKnowApplication.Models;
+using NoKnowApplication.Services;
 
 namespace NoKnowApplication.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AreaSelectPage : ContentPage
     {
-        private RegistrationPage previouspage;
+        public RegistrationPage previouspage;
         private PolicyAgreementPage nextpage;
+        public AreaConfigurationEntity areaConfigurationEntity;
         private object SelectedKanton;
         private object SelectedGemeinde;
+        private KantonService kantonService;
+        private GemeindeService gemeindeService;
+        private AccountService accountService;
 
         public AreaSelectPage(RegistrationPage page)
         {
             InitializeComponent();
-            KantonListe.ItemsSource = GetKantone();
-            GemeindeListe.ItemsSource = GetGemeinden();
+            //Kantone befüllen
+            List<KantonEntity> kantone = new List<KantonEntity>();
+            kantone.Add(new KantonEntity());
+            kantone.AddRange(ApplicationHandler.Kantone);
+
+            List<GemeindeEntity> gemeinden = new List<GemeindeEntity>();
+            gemeinden.Add(new GemeindeEntity());
+            gemeinden.AddRange(ApplicationHandler.Gemeinden);
+
+            KantonListe.ItemsSource = kantone;
+            GemeindeListe.ItemsSource = gemeinden;
             KantonListe.SelectedItem = KantonListe.Items.First();
             GemeindeListe.SelectedItem = GemeindeListe.Items.First();
             previouspage = page;
             WeiterButton.IsEnabled = false;
-        }
-
-        private IList GetGemeinden()
-        {
-            var gemeinden = new List<ListItem>();
-            gemeinden.Add(new ListItem());
-            gemeinden.Add(new ListItem() { Description = "Kriens" });
-            gemeinden.Add(new ListItem() { Description = "Horgen" });
-            gemeinden.Add(new ListItem() { Description = "Harbbach" });
-            return gemeinden;
-        }
-
-        private IList GetKantone()
-        {
-            var kantone = new List<ListItem>();
-            kantone.Add(new ListItem());
-            kantone.Add(new ListItem() { Description = "Luzern" });
-            kantone.Add(new ListItem() { Description = "Zürich" });
-            kantone.Add(new ListItem() { Description = "Basel" });
-            return kantone;
         }
 
         async void OnBackClick(object sender, EventArgs e)
@@ -56,14 +53,31 @@ namespace NoKnowApplication.Views
         {
             if (WeiterButton.IsEnabled)
             {
-                Application.Current.MainPage = new PolicyAgreementPage(this);
+                if (AllSwiss.IsToggled)
+                {
+                    areaConfigurationEntity = new AreaConfigurationEntity()
+                    {
+                 
+                    };
+                }
+                else
+                {
+                    areaConfigurationEntity = new AreaConfigurationEntity()
+                    {
+                        GemeindeId = GemeindeListe.SelectedItem == null ? null : ((GemeindeEntity)(GemeindeListe.SelectedItem)).Id,
+                        KantonId = KantonListe.SelectedItem == null ? null : ((KantonEntity)(KantonListe.SelectedItem)).Id
+                    };
+                }
+     
+
+             Application.Current.MainPage = new PolicyAgreementPage(this);
             }
         }
 
         async void OnSelected(object sender, EventArgs e)
         {
-            var noKantonSelected = ((ListItem)(KantonListe.SelectedItem)) == null || ((ListItem) (KantonListe.SelectedItem)).Description == null;
-            var noGemeindeSelected = ((ListItem)(GemeindeListe.SelectedItem)) == null || ((ListItem)(GemeindeListe.SelectedItem)).Description == null;
+            var noKantonSelected = ((KantonEntity)(KantonListe.SelectedItem)) == null || ((KantonEntity) (KantonListe.SelectedItem)).Bezeichnung == null;
+            var noGemeindeSelected = ((GemeindeEntity)(GemeindeListe.SelectedItem)) == null || ((GemeindeEntity)(GemeindeListe.SelectedItem)).Bezeichnung == null;
             if (noGemeindeSelected && noKantonSelected && !AllSwiss.IsToggled)
             {
                 WeiterButton.IsEnabled = false;
@@ -73,6 +87,7 @@ namespace NoKnowApplication.Views
                 WeiterButton.IsEnabled = true;
             }
         }
+
         async void OnToggled(object sender, EventArgs e)
         {
             if (AllSwiss.IsToggled)
@@ -97,5 +112,6 @@ namespace NoKnowApplication.Views
                 }
             }
         }
+
     }
 }

@@ -1,23 +1,25 @@
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\bin\Debug\netstandard2.0\NoKnowApplication.dll.config
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\bin\Debug\netstandard2.0\NoKnowApplication.deps.json
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\bin\Debug\netstandard2.0\NoKnowApplication.dll
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\bin\Debug\netstandard2.0\NoKnowApplication.pdb
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.csproj.App.config
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\AreaSelectPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\LoginPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\LoginRegistrationPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\PolicyAgreementPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\RegistrationPage .xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\RecentPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\AreaPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\PasswortPage.xaml.g.cs
+C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\SettingPage.xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.csproj.CoreCompileInputs.cache
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.AssemblyInfoInputs.cache
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.AssemblyInfo.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.dll
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.pdb
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\RecentPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\AreaPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\PasswortPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Settings\SettingPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\LoginPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\LoginRegistrationPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\AreaSelectPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\PolicyAgreementPage.xaml.g.cs
-C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\Views\Account\RegistrationPage .xaml.g.cs
 C:\Users\TheAdmin\source\repos\NoKnowApplication\NoKnowApplication\NoKnowApplication\obj\Debug\netstandard2.0\NoKnowApplication.csprojAssemblyReference.cache

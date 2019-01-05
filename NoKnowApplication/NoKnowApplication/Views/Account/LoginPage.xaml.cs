@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using NoKnowApplication.Entities;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,10 +19,14 @@ namespace NoKnowApplication.Views
     {
         LoginViewModel viewModel;
 
-        public LoginPage()
+        public LoginPage(string username = "", string password = "")
         {
             InitializeComponent();
-
+            if (password != "" && username != "")
+            {
+                Passwort.Text = password;
+                UsernameEmail.Text = username;
+            }
             BindingContext = viewModel = new LoginViewModel();
         }
 
@@ -33,7 +37,7 @@ namespace NoKnowApplication.Views
 
         async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            var user = new User
+            var user = new AccountEntity
             {
                 Username = UsernameEmail.Text,
                 Email = UsernameEmail.Text,
@@ -43,7 +47,10 @@ namespace NoKnowApplication.Views
             var isValid = AreCredentialsCorrect(user);
             if (isValid)
             {
-                App.IsUserLoggedIn = true;
+                 List<AreaConfigurationEntity> config = await MobileService.MobileServiceClient.GetTable<AreaConfigurationEntity>().ToListAsync();
+                 ApplicationHandler.AreaConfiguration =
+                     config.Where(x => x.AccountId == ApplicationHandler.LoggedInAccount.Id).First();
+                 App.IsUserLoggedIn = true;
                 Application.Current.MainPage = new MainPage();
             }
             else
@@ -52,10 +59,19 @@ namespace NoKnowApplication.Views
             }
         }
 
-        bool AreCredentialsCorrect(User user)
+        bool AreCredentialsCorrect(AccountEntity user)
         {
-            return true;
-            //SERVICE QUERY
+            var accounts = ApplicationHandler.AllAccounts.Where(x =>
+                x.Password == Passwort.Text && (x.Username == UsernameEmail.Text || x.Email == UsernameEmail.Text));
+            if (accounts.Any())
+            {
+                ApplicationHandler.LoggedInAccount = accounts.First();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }

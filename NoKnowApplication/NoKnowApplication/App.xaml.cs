@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.WindowsAzure.MobileServices;
+using NoKnowApplication.Entities;
+using NoKnowApplication.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using NoKnowApplication.Views;
@@ -22,9 +27,11 @@ namespace NoKnowApplication
             }
         }
 
-        protected override void OnStart()
+        protected async override void OnStart()
         {
-            // Handle when your app starts
+            ApplicationHandler.Kantone = await MobileService.MobileServiceClient.GetTable<KantonEntity>().ToListAsync();
+            ApplicationHandler.Gemeinden = await MobileService.MobileServiceClient.GetTable<GemeindeEntity>().ToListAsync();
+            ApplicationHandler.AllAccounts = await MobileService.MobileServiceClient.GetTable<AccountEntity>().ToListAsync();
         }
 
         protected override void OnSleep()

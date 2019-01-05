@@ -12,7 +12,6 @@ namespace NoKnowApplication.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<ListItem> DataStore => DependencyService.Get<IDataStore<ListItem>>() ?? new MockDataStore();
 
         bool isBusy = false;
         public bool IsBusy

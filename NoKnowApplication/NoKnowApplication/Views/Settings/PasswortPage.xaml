@@ -3,7 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NoKnowApplication.Views.Settings.PasswortPage"
              Title="{Binding Title}">
-    <StackLayout Spacing="20" Padding="15">
-        
-    </StackLayout>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackLayout Spacing="20" Padding="20" VerticalOptions="Center" Grid.Row="0">
+                <Label HorizontalTextAlignment="Center" Text="Ändere dein Passwort" FontSize="18" TextColor="Gray"></Label>
+                <Label HorizontalTextAlignment="Center" Margin="0,10,0,0" Text="Altes Passwort:" FontSize="16"></Label>
+                <Entry x:Name="altesPasswort" TextChanged="OnOldInput" Placeholder="altes Passwort" IsPassword="true"/>
+                <Label HorizontalTextAlignment="Center" Margin="0,10,0,0" Text="neues Passwort:" FontSize="16"></Label>
+                <Entry x:Name="neuesPasswort"  TextChanged="OnNewInput" Placeholder="neues Passwort" IsPassword="true"/>
+                <Label HorizontalTextAlignment="Center" Margin="0,10,0,0" Text="neues Passwort:" FontSize="16"></Label>
+                <Entry x:Name="neuesPasswortwiederholung" TextChanged="OnNewInput2"  Placeholder="neues Passwort" IsPassword="true"/>
+                <Button x:Name="SpeichernButton"  Text="Speichern" Margin="0,15,0,0" TextColor="White" BackgroundColor="#3556e9" Clicked="OnSpeichernClicked"/>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

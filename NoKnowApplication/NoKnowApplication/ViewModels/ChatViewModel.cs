@@ -25,7 +25,7 @@ namespace NoKnowApplication.ViewModels
             {
                 var newItem = item as ListItem;
                 Items.Add(newItem);
-                await DataStore.AddItemAsync(newItem);
+              
             });
         }
 
@@ -39,11 +39,8 @@ namespace NoKnowApplication.ViewModels
             try
             {
                 Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
-                foreach (var item in items)
-                {
-                    Items.Add(item);
-                }
+             
+            
             }
             catch (Exception ex)
             {

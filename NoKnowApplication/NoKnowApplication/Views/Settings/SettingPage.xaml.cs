@@ -24,9 +24,14 @@ namespace NoKnowApplication.Views.Settings
             {
                 await Navigation.PushAsync(new AreaPage());
             }
-            else
+            if (item.Text == "Passwort ändern")
             {
                 await Navigation.PushAsync(new PasswortPage());
+            }
+
+            if (item.Text == "Log Out")
+            {
+                Application.Current.MainPage = new LoginPage(ApplicationHandler.LoggedInAccount.Username, ApplicationHandler.LoggedInAccount.Password);
             }
 
             // Manually deselect listItem.
